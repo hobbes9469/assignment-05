@@ -93,7 +93,7 @@ string int_to_roman_iterative(int i) {
     string ret = "";
 
     for (int a = 0; a < sizeof(values)/sizeof(int); a++) {
-        if (i >= values[a]) {
+        while (i >= values[a]) {
             ret += numerals[a];
             i -= values[a];
         }
