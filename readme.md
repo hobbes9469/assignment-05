@@ -71,7 +71,7 @@ F_n = F_(n-1) + F_(n-2)
 
 #### Roman Numerals
 
-Remember [assignment-01](../assignment-01), where we talked about Roman
+Remember [assignment-01](../../../assignment-01), where we talked about Roman
 numerals? :) .  Here is a relatively compact iterative solution the assignment
 that, instead of printing the result to standard output, returns the numeral as
 a string.
